@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stray Kids Quiz</title>
+    <link rel="stylesheet" href="../css/quiz.css">
+    <link rel="shortcut icon" href="../img/logo.webp" type="image/x-icon">
+    <script src="https://unpkg.com/htmlincludejs"></script>
+</head>
+
+<body>
+    <header>
+        <include src="../html/header.html"></include>
+    </header>
+
+    <div class="intro__quiz">
+        <div class="intro__title">
+            Kvíz
+        </div>
+        <div class="intro__desc">
+            Vyplňte tento kvíz a zistite, ako dobre poznáte Stray Kids!
+        </div>
+    </div>
+    
+    <div class="containerQ">
+        <h1>Stray Kids Quiz</h1>
+        <div id="quiz"></div>
+        <div id="result" class="result"></div>
+        <button id="submit" class="button">Submit</button>
+        <button id="retry" class="button hide">Retry</button>
+        <button id="showAnswer" class="button hide">Show Answer</button>
+    </div>
+
+    <footer>
+        <include src="../html/footer.html"></include>
+    </footer>
+    
+    <script src="../js/quiz.js"></script>
+</body>
+
+</html>
