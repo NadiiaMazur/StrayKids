@@ -1,0 +1,47 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+footer {
+    width: 100%;
+}
+
+.footer__copy {
+    border-top: 1px solid #FF0EE7;;
+    background-color: black;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.copy__text {
+    color: #FF0EE7;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.credits {
+    color: #FF0EE7;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.containerf {
+    margin: 0 170px;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
